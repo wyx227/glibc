@@ -148,15 +148,15 @@ END LC_NAME
 
 
 % I removed this part since the form of address inside EU is not always same.
-% LC_ADDRESS
-% postal_fmt    "%f%N%a%N%d%N%b%N%s %h %e %r%N%z %T%N%c%N"
-% country_name "Denmark"
-% country_ab2 "EU"
+LC_ADDRESS
+postal_fmt    "%f%N%a%N%d%N%b%N%s %h %e %r%N%z %T%N%c%N"
+country_name "European Union"
+country_ab2 "EU"
 % country_ab3 "EUU" no 3 digit code is defined for EU
 % country_num 208 no country number is defined for EU
-% country_car    "EU"
-% lang_name     "English"
-% lang_ab      "en"
-%lang_term    "eng"
-%lang_lib    "eng"
-%END LC_ADDRESS
+country_car    "EU"
+lang_name     "English"
+lang_ab      "en"
+lang_term    "eng"
+lang_lib    "eng"
+END LC_ADDRESS
